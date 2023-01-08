@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "831122906273",
+    "project_id": "flutter-login-signup-7d8da",
+    "storage_bucket": "flutter-login-signup-7d8da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831122906273:android:6b1f876826b80face264e0",
+        "android_client_info": {
+          "package_name": "com.example.grequizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831122906273-3nsv5htsd9q05s9346h4ou1atagh8p7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKD2GybasjQNWy2zhUWw5lIl9FF5CoaPs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831122906273-3nsv5htsd9q05s9346h4ou1atagh8p7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
