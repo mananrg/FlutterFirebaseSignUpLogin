@@ -187,30 +187,33 @@ class _LoginScreenState extends State<LoginScreen> {
                 ]),
               ),
               //sign in with google
-              Container(
-                height: 50,
-                width: size.width * 0.8,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFF1F5F6),
-                  borderRadius: BorderRadius.circular(15),
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Image.network(
-                        'http://pngimg.com/uploads/google/google_PNG19635.png',
-                        fit: BoxFit.cover),
-                    const SizedBox(
-                      width: 5.0,
-                    ),
-                    const Text(
-                      'Sign-in with Google',
-                      style: TextStyle(
-                        fontSize: 17,
+              GestureDetector(
+                onTap: (){},
+                child: Container(
+                  height: 50,
+                  width: size.width * 0.8,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFF1F5F6),
+                    borderRadius: BorderRadius.circular(15),
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Image.network(
+                          'http://pngimg.com/uploads/google/google_PNG19635.png',
+                          fit: BoxFit.cover),
+                      const SizedBox(
+                        width: 5.0,
                       ),
-                    )
-                  ],
+                      const Text(
+                        'Sign-in with Google',
+                        style: TextStyle(
+                          fontSize: 17,
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
               const Expanded(
