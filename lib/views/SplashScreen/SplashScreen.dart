@@ -17,7 +17,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   startTimer() {
     Timer(
-      const Duration(seconds: 5),
+      const Duration(seconds: 3),
       () async {
         SharedPreferences prefs = await SharedPreferences.getInstance();
         var email = prefs.getString("email");
